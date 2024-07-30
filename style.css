@@ -1,22 +1,41 @@
+body {
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #header {
   text-align: center;
+  font-size: 3em;
 }
 
 #navbar {
   position: fixed;
   display: flex;
   flex-direction: column;
+  left: 10px;
+  top: 50px;
+}
+
+#navbar-header {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  margin-bottom: 10px;
 }
 
 #main-doc {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-body {
-  min-width: 600px;
+.section-header {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 30px;
 }
 
 a {
@@ -33,4 +52,13 @@ a:hover {
   body {
     min-width: auto;
   }
+}
+
+.example {
+  font-style: italic;
+}
+
+#footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
