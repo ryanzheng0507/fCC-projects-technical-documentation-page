@@ -1,9 +1,32 @@
+#header {
+  text-align: center;
+}
+
 #navbar {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-doc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
   min-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: rgb(211, 205, 205);
 }
 
 @media (max-width: 599px) {

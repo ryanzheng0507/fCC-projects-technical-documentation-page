@@ -7,52 +7,63 @@
   <title>Technical Documentation Page</title>
 </head>
 <body>
+  <header id="header">JavaScript Math Object</header>
   <nav id="navbar">
-    <header>All Topics</header>
-    <a href="#Topic_1" class="nav-link">Topic 1</a>
-    <a href="#Topic_2" class="nav-link">Topic 2</a>
-    <a href="#Topic_3" class="nav-link">Topic 3</a>
-    <a href="#Topic_4" class="nav-link">Topic 4</a>
-    <a href="#Topic_5" class="nav-link">Topic 5</a>
+    <header>Math Object Topics</header>
+    <a href="#Topic_1" class="nav-link">Math Properties (Constants)</a>
+    <a href="#Topic_2" class="nav-link">Math Methods</a>
+    <a href="#Topic_3" class="nav-link">Math.max() and Math.min()</a>
+    <a href="#Topic_4" class="nav-link">Math.random()</a>
+    <a href="#Topic_5" class="nav-link">Math.pow()</a>
   </nav>
   <main id="main-doc">
     <section class="main-section" id="Topic_1">
-      <header>Topic 1</header>
-      <p></p>
-      <p></p>
+      <header>Math Properties (Constants)</header>
+      <p>The syntax for any Math property is: <code>Math.property</code>.</p>
+      <p>Example</p>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><code>Math.E // returns Euler's number</code></li>
+        <li><code>Math.PI // returns PI</code></li>
+        <li><code>Math.SQRT2 // returns the square root of 2</code></li>
+        <li><code>Math.SQRT1_2 // returns the square root of 1/2</code></li>
+        <li><code>Math.LN2 // returns the natural logarithm of 2</code></li>
       </ul>
       <code></code>
     </section>
     <section class="main-section" id="Topic_2">
-      <header>Topic 2</header>
-      <p></p>
-      <p></p>
-      <code></code>
+      <header>Math Methods</header>
+      <p>The syntax for Math any methods is: <code>Math.method(number)</code></p>
+      <p>Number to Integer</p>
+      <p>Example</p>
+      <ul>
+        <li><code>Math.round(x) // returns x rounded to its nearest integer</code></li>
+        <li><code>Math.ceil(x) // returns x rounded up to its nearest integer</code></li>
+        <li><code>Math.floor(x) // returns x rounded down to its nearest integer</code></li>
+        <li><code>Math.trunc(x) // returns the integer part of x</code></li>
+      </ul>
     </section>
     <section class="main-section" id="Topic_3">
-      <header>Topic 3</header>
-      <p></p>
-      <p></p>
-      <code></code>
+      <header>Math.min() and Math.max()</header>
+      <p><code>Math.min()</code> and <code>Math.max()</code> can be used to find the lowest or highest value in a list of arguments</p>
+      <p>Example</p>
+      <ul>
+        <li><code>Math.min(0, 150, 3, 20, -8, -200) // returns -200</code></li>
+        <li><code>Math.max(0, 150, 3, 20, -8, -200) // returns 150</code></li>
+      </ul>
     </section>
     <section class="main-section" id="Topic_4">
-      <header>Topic 4</header>
-      <p></p>
-      <p></p>
-      <code></code>
+      <header>Math.random()</header>
+      <p><code>Math.random()</code> returns a random number between 0 (inclusive) and 1 (exclusive)</p>
+      <p>Example</p>
+      <code>Math.random()</code>
     </section>
     <section class="main-section" id="Topic_5">
-      <header>Topic 5</header>
-      <p></p>
-      <p></p>
-      <code></code>
+      <header>Math.pow()</header>
+      <p><code>Math.pow(x, y)</code> returns the value of x to the power of y</p>
+      <p>Example</p>
+      <code>Math.pow(8, 2) // returns 64</code>
     </section>
+    <p>For more information, go to <a href="https://www.w3schools.com/js/js_math.asp">w3schools</a></p>
   </main>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
