@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   left: 10px;
-  top: 50px;
+  top: 100px;
 }
 
 #navbar-header {
@@ -28,8 +28,7 @@ body {
 }
 
 #main-doc {
-  display: flex;
-  flex-direction: column;
+  margin-left: 220px;
 }
 
 .section-header {
@@ -48,9 +47,19 @@ a:hover {
   background-color: rgb(211, 205, 205);
 }
 
+@media (max-width: 800px) {
+  #header {
+    margin-left: 80px;
+  }
+}
+
 @media (max-width: 599px) {
   body {
     min-width: auto;
+  }
+
+  #header {
+    margin-left: 200px;
   }
 }
 
